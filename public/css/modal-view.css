@@ -1,0 +1,137 @@
+#myImg {
+	transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 98;
+	padding-top: 40px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 95%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.8);
+}
+
+.modal > div {
+	width: 99%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.inModal {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 100%;
+	max-width: 700px;
+}
+
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 40px;
+}
+
+.modal-content, #caption {
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+	from{-webkit-transform:scale(0)}
+	to{-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+	from{transform:scale(0)}
+	to{transform:scale(1)}
+}
+
+.modal-btns {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	display: flex;
+}
+
+.modal-download-block {
+	margin-right: 30px;
+	padding-top: 4px;
+	box-sizing: border-box; 
+}
+
+.modal-close {
+	color: #f1f1f1;
+	font-size: 27px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.modal-download {
+	color: #f1f1f1;
+	font-size: 20px;
+	font-weight: bold;
+	transition: 0.3s; 
+}
+
+.modal-close:hover, .modal-close:focus, .modal-download:hover, .modal-download:focus{
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+	.modal-content{width: 100%;}
+
+	.inModal {
+		width: 90%;
+	}
+}
+
+.modal-prev, .modal-next{
+	cursor:pointer;
+	position: absolute;
+	top: 50%; 
+	width: auto;
+	margin-top: -22; 
+	padding: 16px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	z-index: 2;
+}
+
+.modal-next {
+	right: 2px;
+	border-radius: 3px 0 0 3px;
+}
+
+.modal-prev {
+	left: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.modal-prev:hover, .modal-next:hover{
+	background-color: rgba(0,0,0,0.8);
+}

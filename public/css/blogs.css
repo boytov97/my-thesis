@@ -1,0 +1,58 @@
+.blogs {
+	border: 1px solid #ccc;
+	width: 100%;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+.blog-title {
+	width: 100%;
+}
+
+.blog-title h4 a {
+	font-weight: 700;
+	color: #53B0D5;
+}
+
+.blog-info {
+	width: 100%;
+	height: 20px;
+	font-size: 13px;
+	border-bottom: 1px solid #ccc;
+}
+
+.blog-text {
+	width: 100%;
+	height: 65px;
+	margin-top: 6px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.blog-catLink {
+	display: flex;
+	width: 100%;
+	margin: 5px 0;
+}
+
+.blog-catLink a:hover {
+	text-decoration-line: underline;
+}
+
+.blog-category {
+	width: 49%;
+	text-align: left;
+}
+
+.blog-category a:hover {
+	color: #7CC2E3;
+}
+
+.link-to-fullText {
+	width: 49%;
+	text-align: right;
+}
+
+.link-to-fullText a:hover {
+	color: #7CC2E3;
+}

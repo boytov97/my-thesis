@@ -1,0 +1,148 @@
+.content-header {
+	padding: 15px 0;
+}
+
+.profile-wrapper {
+	padding: 15px 0;
+}
+
+.user__degries {
+	width: 550px;
+}
+
+.user__degries td:first-child {
+	text-align: left;
+}
+
+.user__degries td {
+	width: 150px;
+	height: 30px;
+	text-align: center;
+}
+
+.score {
+	font-weight: 600;
+	font-size: 16px;
+	color: green;
+}
+
+.profile_commands {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #f4f4f4;
+    padding: 5px 10px;
+}
+
+.command_link {
+    padding: 5px 10px;
+}
+
+.active__form {
+	border: 1px solid #f4f4f4;
+}
+
+.profile-my_form {
+	width: 500px;
+	padding-top: 15px;
+}
+
+.profile-save {
+	margin-top: 10px; 
+}
+
+.avatar-block {
+	width: 130px;
+	text-align: center;
+}
+
+.avatar-wrapper {
+	width: 130px;
+	height: 160px;
+	overflow: hidden;
+	background-color: #ccc;
+}
+
+.user-avatar {
+	width: 130px;
+	height: 160px;
+}
+
+.check-img {
+	position: absolute;
+	overflow: hidden;
+	z-index: -1;
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+}
+
+.upload-file-label {
+	padding: 5px;
+	color: blue;
+}
+
+.upload-file-label:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.upload-img-blokc {
+	padding: 0 10px 0 25px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.errors-message {
+	font-size: 11px;
+	color: red;
+}
+
+.error_input {
+	border: 1px solid red;
+}
+
+.success__message {
+	width: 100%;
+	min-height: 30px;
+	background: #00C0EF;
+	color: #fff;
+	border-radius: 7px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 12px;
+	margin: 10px 0;
+}
+
+.check_img_name {
+	font-size: 11px;
+	color: #F5EAC1;
+}
+
+@media  screen and (max-width: 556px) {
+	
+	.profile-my_form {
+		width: 100%;
+	}
+
+	.user__degries {
+		width: 100%;
+	}
+
+	.profile-block {
+		display: block;
+	}
+
+	.upload-img-blokc {
+		padding: 0;
+		margin-top: 40px; 
+	}
+
+	.avatar-block {
+		width: 130px;
+		text-align: center;
+		margin: 20px auto 0 auto;
+	}
+}

@@ -1,0 +1,64 @@
+.test-wrapper {
+	margin-top: 10px; 
+}
+
+.test-wrapper input {
+	margin-top: 5px;
+}
+
+.check-button-blk {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-top: 1px solid #ccc;
+}
+
+.check-button {
+	float: right;
+	margin-bottom: 10px;
+}
+
+.test-result {
+	width: 100%;
+	background: #F5F5F5;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.test-result li {
+    list-style: none;
+}
+
+.test-body {
+	padding-top: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.radio_input {
+	margin-right: 10px;
+}
+
+.correct-answ {
+	color: green;
+}
+
+.uncorrect_answ {
+	color: red;
+}
+
+.fas {
+	color: green;
+}
+
+.error__message {
+    color: red;
+}
+
+@media screen and (max-width: 850px) {
+	.test-wrapper {
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+}

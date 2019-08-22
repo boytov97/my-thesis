@@ -1,0 +1,141 @@
+.list li a {
+	color: #53B0D5;
+}
+
+.list li a:hover {
+	color: #c73030;
+}
+
+.list li {
+	margin: 10px;
+}
+
+.list {
+	font-size: 14px;
+	list-style-type: none;
+}
+
+.exercises {
+	width: 100%;
+	margin: 40px 0;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.exercise-links a {
+	margin: 5px;
+	color: #53B0D5;
+}
+
+/*EXERCISES*/
+.exercise-wrapper {
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 30px auto;
+}
+
+.exe-s {
+	width: 100%;
+	margin: 20px 0;
+}
+
+.exe-s li {
+	list-style: none;
+	margin: 10px 5px;
+}
+
+.explanation {
+	display: block;
+}
+
+.explanation-text {
+	width: 100%;
+}
+
+.commands {
+	width: 100%;
+	text-align: center;
+}
+
+.commands a {
+	color: #53B0D5;
+	padding: 0 25px 0 25px;
+}
+
+.fa-arrow-left, .fa-arrow-right {
+	width: 5px;
+	font-size: 15px;
+}
+
+.answer {
+	width: 30%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	padding: 0 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.check-btn {
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+
+.check__button {
+	position: absolute;
+	right: 5px;
+}
+
+.correct {
+	color: green;
+}
+
+.correct i {
+	color: green;
+}
+
+.uncorrect {
+	color: red;
+}
+
+.uncorrect i {
+	color: red;
+}
+
+.grammar_img_blk {
+	display: block;
+	width: 100%;
+	padding: 20px 5px;
+	box-sizing: border-box;
+	text-align: center;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.grammar_img {
+	width: 60%;
+}
+
+.with_error_val {
+	color: green;
+}
+
+.error_ans_mes {
+	color: red;
+	font-size: 13px;
+}
+
+.input_validate_error {
+	border-bottom: 1px solid red !important;
+}
+
+@media screen and (max-width: 850px) {
+	.exercise-wrapper {
+		border: none;
+		margin-bottom: 30px;
+	}
+}

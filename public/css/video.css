@@ -1,0 +1,102 @@
+.video-card {
+	border-bottom: 1px solid #ccc;
+	margin-top: 5px;
+	line-height: 1.2;
+}
+
+.inline_block {
+	display: inline-block;
+	padding: 0 8px;
+}
+
+.video-card:hover {
+	cursor: pointer;
+}
+
+.video-card-body {
+	position: relative;
+	width: 210px;
+	height: 70px;
+	color: #444;
+}
+
+.video-date {
+	font-size: 13px;
+	margin: 3px 0;
+}
+
+.video-block {
+	position: relative;
+	width: 210px;
+	height: 121px;
+}
+
+.video-time {
+	position: absolute;
+	top: 95px;
+	right: 5px;
+	padding: 2px 4px;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	font-size: 12px;
+}
+
+.video {
+	width: 210px;
+	height: 118px;
+	background: rgba(0, 0, 0, 0.9);
+}
+
+.v-play {
+	width: 50px;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.wrapper {
+	width: 99.9%;
+	margin: auto;
+}
+
+.video-title {
+	height: 22px;
+	overflow-y: hidden;
+}
+
+.video-title, .video-author {
+	padding: 5px 0;
+}
+
+.full-video-title {
+	display: none;
+	position: absolute;
+	top: 25px;
+	background: #fff;
+	padding: 3px 5px;
+	border: 0.1px solid #ccc;
+	font-size: 11px;
+}
+
+@media screen and (max-width: 500px) {
+
+	.video-card {
+		display: flex;
+		border: none;
+	}
+
+	.video-card-body {
+		margin: 5px 8px;
+	}
+
+	.inline_block {
+		width: 100%;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.video-time {
+		font-size: 12px;
+	}
+}

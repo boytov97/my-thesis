@@ -1,0 +1,194 @@
+.commit-block {
+	margin-top: 15px;
+}
+
+.audio-block {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.blog-audio {
+	height: 40px;
+	width: 99%;
+	margin: 0 auto;
+}
+
+.blog-title {
+	width: 100%;
+}
+
+.blog-title h4 {
+	font-weight: 700;
+	color: #53B0D5;
+}
+
+.blog-info {
+	display: flex;
+	width: 100%;
+	height: 20px;
+	font-size: 13px;
+	border-bottom: 1px solid #ccc;
+}
+
+.blog-text {
+	width: 100%;
+	margin-top: 6px;
+	line-height: 2;
+}
+
+.blog-text p {
+	line-height: 2;
+}
+
+.blog-catLink {
+	display: flex;
+	width: 100%;
+	margin: 5px 0;
+}
+
+.blog-catLink a {
+	font-weight: 600;
+	color: #1A0DAB;	
+} 
+
+.blog-catLink a:hover {
+	text-decoration-line: underline;
+}
+
+.blog-authorDate {
+	width: 65%;
+	text-align: left;
+}
+
+.blog-category {
+	width: 34%;
+	text-align: right;
+}
+
+.unfamiliar-words {
+	width: 100%;
+	margin: 10px 0;
+}
+
+.unfamiliar-words li {
+	margin: 5px 0;
+	list-style: none;
+}
+
+/*comment*/
+.commit-header {
+	width: 100%;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.commit-count:hover {
+	cursor: pointer;
+	text-decoration-line: underline;
+}
+
+.textarea-block {
+	width: 96%;
+	border-bottom: 2px solid #ccc;
+}
+
+.commit-input {
+	width: 100%;
+	border: none;
+	outline: none;
+	overflow: hidden;
+	height: 20px;
+	padding:0;
+	box-sizing: border-box;
+	font-size: 14px;
+	word-break: break-all;
+}
+
+.clone-textarea-commit {
+	width: 55%;
+	visibility: hidden;
+	min-height: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	padding: 0 10px;
+	font-size: 14px;
+	word-break: break-all;
+}
+
+.commit-button-blk {
+	position: relative;
+	height: 40px;
+}
+
+#commit-button {
+	position: absolute;
+	top: 5px;
+	right: 3px;
+	padding: 3px 5px;
+}
+
+.commits-block {
+	margin: 10px 0 20px 0;
+}
+
+.commits-block-hidden {
+	display: none;
+}
+
+.commit {
+	border-bottom: 1px solid #ccc;
+	margin-top: 10px;
+	display: flex;
+}
+
+.avatar-circle {
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.user-avatar-block {
+	width: 50px;
+}
+
+.user-avatar {
+	width: 45px;
+	height: 45px;
+}
+
+.user-commit-message {
+	width: 99%;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.answer-link-block {
+	text-align: right;
+	padding: 5px 0;
+}
+
+.answer-link {
+	color: #C5E2DE;
+}
+
+.answer-link:hover {
+	cursor: pointer;
+	color: #0b2e13;
+}
+
+.answer {
+	margin-left: 20px;
+}
+
+.to-whom {
+	color: #444;
+	font-weight: 600;
+	margin-right: 10px;
+}
+
+.hidden-element {
+	display: none;
+}
